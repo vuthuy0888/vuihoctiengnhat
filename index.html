@@ -1,88 +1,167 @@
 <!DOCTYPE html>
-<html>
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>トップ</title>
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Bootstrap date-picker -->
+  <link rel="stylesheet" type="text/css" href="bootstrap-datepicker-1.9.0-dist/css/bootstrap-datepicker.min.css">
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!--JS-->
+  <script type="text/javascript" src="bootstrap-datepicker-1.9.0-dist/js/bootstrap-datepicker.min.js"></script>
+  <script type="text/javascript" src="bootstrap-datepicker-1.9.0-dist/locales/bootstrap-datepicker.ja.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+<body class=""style="background-color: #F9FBFE">
+
+  <!-- ヘッダー -->
+  <header class="">
+    <small>
+      <div class="container shadow bg-light rounded border">
+        <div class="row">
+          <div id="logo" class="col-md-2 bg-white pt-2 pb-2 text-white text-center">
+            <img src="image/jijibaba_grey.jpeg" alt="">
+          </div>
+          <!-- ナビゲーションー -->
+          <nav id="navigation" class="col-md-8 d-flex align-items-center">
+            <a href="#" class="text-info pr-3">PROFILE</a>
+            <a href="#" class="text-info pr-3">COURSE</a>
+            <a href="#" class="text-info pr-3">TOPIC</a>
+            <a href="#" class="text-info pr-3">LESSON</a>
+            <a href="#" class="text-info pr-3">TEST</a>
+            <a href="#" class="text-info pr-3">INFORMATION</a>
+          </nav>
+          <div id="contact-login" class="col-md-2 d-flex align-items-center">
+            <a href="#" class="badge  badge-pill badge-info p-2" style="font-size:12px;">contact</a>
+            <a href="#" class="badge badge-pill badge-info p-2" style="font-size:12px;">login</a>
+          </div>
+        </div>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
+    </small>
   </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+
+  <!-- タイトル -->
+  <div id="title" class="container border" style="background-color:#F9FBFE
+">
+    <div class="row">
+      <div class="col-md-12 text-center p-5">
+        <h2 class="font-weight-light">Welcome to</h2>
+        <br>
+          <h1 class="font-italic font-weight-light">
+            <span class="text-info font-weight-bold">
+              <span class="text-white rounded-circle border border-white bg-info pl-3 pr-3 pt-1 pb-1">a</span>
+              <span class="text-white rounded-circle border border-success bg-success pl-3 pr-3 pt-1 pb-1">i</span>
+              <span class="text-info rounded-circle border border-dark bg-white pl-3 pr-3 pt-1 pb-1">u</span>
+              <span class="text-info rounded-circle border border-danger bg-white pl-3 pr-3 pt-1 pb-1">e</span>
+              <span class="text-info rounded-circle border border-warning bg-white pl-3 pr-3 pt-1 pb-1">o</span>
+              's
+            </span>
+              Japanese Class</h1>
       </div>
     </div>
   </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
+
+  <!-- コンテンツ -->
+  <div id="content" class="container border">
+    <div class="row">
+      <!-- メイン -->
+      <div id="main" class="col-md-9 border">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-3">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn badge-pill btn-outline-info">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
+
+      <!-- サブメイン -->
+      <div id="submain" class="col-md-3 border">
+        サブメイン
       </div>
-      <div class="clear"></div>
     </div>
   </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="container border">
+    <div class="row">
+      <div class="col-md-12">
+        footer
       </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
     </div>
   </footer>
+
+</body>
